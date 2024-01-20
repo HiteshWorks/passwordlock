@@ -2,7 +2,7 @@
 
 ## The Game is a simple copy of the easy and popular Tic Tac Toe Game! 
 
-![Alt Text](tictactoe/src/clouds.png)
+![Alt Text](tictactoe/src/Screenshot.png)
 
 ---
 ## Installation
