@@ -1,4 +1,4 @@
-#Tic Tac Toe
+# Tic Tac Toe
 
 ## The Game is a simple copy of the easy and popular Tic Tac Toe Game! 
 
