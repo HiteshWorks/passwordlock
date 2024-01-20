@@ -30,7 +30,7 @@ function App() {
     setFillUp(Array(9).fill(""));
     setArrayIndex(0);
     setResult("");
-    setXgo(true); // Reset Xgo to true for X to start
+    setXgo(true);
   }
 
   function WhosGo() {
@@ -108,7 +108,7 @@ function App() {
       >
         <div className="flex-col gap-2 h-48  ">
           <div
-            className={`heading text-9xl text-stone-500   shadow-sm shadow-pink-200 left-96 absolute top-0`}
+            className={`heading text-9xl text-stone-800   shadow-sm shadow-pink-200 left-96 absolute top-0`}
           >
             Tic Tac Toe
           </div>
