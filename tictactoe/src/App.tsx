@@ -35,10 +35,9 @@ function App() {
 
   function WhosGo() {
     if (fillup.every((value) => value === "")) {
-      if (Xgo){
+      if (Xgo) {
         setArrayIndex(1);
-      }
-      else{
+      } else {
         setArrayIndex(0);
       }
       setXgo((prevXgo) => !prevXgo);
@@ -98,14 +97,7 @@ function App() {
       <div className="flex justify-center">
         {result !== "It's a Tie!" && result !== "" ? <ConfettiExplosion /> : ``}
       </div>
-      <div
-        className="container h-screen w-full flex  justify-center"
-        style={{
-          backgroundImage: 'url("./src/bg.jpg")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <div className="container h-screen w-full flex justify-center bg-[url('/images/bg.jpg')] bg-cover bg-center">
         <div className="flex-col gap-2 h-48  ">
           <div
             className={`heading text-9xl text-stone-800   shadow-sm shadow-pink-200 left-96 absolute top-0`}
@@ -174,7 +166,7 @@ function App() {
             >
               {isMuted ? <RiVolumeMuteFill /> : <GoUnmute />}
             </div>
-            <audio ref={clickAudio} src="./src/click.mp3"></audio>
+            <audio ref={clickAudio} src="/sounds/click.mp3"></audio>
           </div>
         </div>
         <div className="flex justify-between absolute mt-5 gap-[40rem] p-1  top-[90%] ">
